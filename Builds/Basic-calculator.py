@@ -31,4 +31,4 @@ else:
     print("An unexpected error occurred.")
     result = "N/A" 
 
-print(a, {1: "+", 2: "-", 3: "*", 4: "/", 5: "%", 6: "**"}[x], b, "=", result)
+print(a, {1: "+", 2: "-", 3: "*", 4: "/", 5: "%", 6: "**"}[int(x)], b, "=", result)
