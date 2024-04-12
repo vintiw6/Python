@@ -4,8 +4,7 @@
 
 <div class="content">
 
- <h1 class="title"> ## Core Concepts</h1>
-
+  Core Concepts
   This section covers the fundamental building blocks of Python programming:
 
   **Variables and Data Types**
