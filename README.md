@@ -4,7 +4,7 @@
 
 <div class="content">
 
-  ## Core Concepts
+ <h1 class="title"> ## Core Concepts</h1>
 
   This section covers the fundamental building blocks of Python programming:
 
