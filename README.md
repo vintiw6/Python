@@ -7,7 +7,7 @@
 <h2 class="core-concepts">Core Concepts</h2>
   This section covers the fundamental building blocks of Python programming:
 
- <h3 class=**Variables and Data Types**>**Variables and Data Types**</h3>
+ <h3 class=**Variables and Data Types**>Variables and Data Types</h3>
 
   Variables store data, and data types define the kind of data a variable can hold. Explore basic data types like integers, floats, strings, booleans, and None.
 
