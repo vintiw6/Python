@@ -10,4 +10,4 @@ elif (timestamp >= '17:00:00' and timestamp < '21:00:00'):
 elif (timestamp >= '21:00:00' or timestamp < '04:00:00'): 
     print("Good Night")
 else:
-    print("Error: Invalid time range")  
+    print("Error: Invalid time range")   
