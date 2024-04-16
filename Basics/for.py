@@ -28,3 +28,19 @@ for x in range(1,21):
         continue
     else:
         print(x)     
+
+# Break Statement
+# What it does is it breaks out of the loop
+for j in range (12):
+    if(j == 10):
+        break
+    print("5 X", j+1, "=", 5 * j+1)
+print("Out of Loop")
+
+# Continue
+# Proceed and gives of the data till meet the given instructions
+for j in range (12):
+    if(j == 10):
+        print("Skip The Iteration")
+        continue
+    print("5 X", j+1, "=", 5 * j+1)

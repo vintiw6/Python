@@ -13,10 +13,8 @@ else:
     print("Out of the loop")
 
 # Do-While Loop
-user = True
-while user:
-  number = int(input("Enter a number (0 to quit): "))
-  user = number != 0
-  if number != 0:
-    print(f"You entered: {number}")
-print("Goodbye!")
+while True:
+    print(i)
+    i = i + 1
+    if(i%100==0):
+        break
