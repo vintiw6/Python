@@ -21,3 +21,13 @@ AreaRectangle(a, b)
 
 c = int(input("Enter the Radius of the Circle: "))
 AreaCircle(c)
+
+# Arbitrary Argument is used when we wanna use multiple arguments in a function
+def Average(*numbers):
+    sum = 0
+    for i in numbers:
+        sum = sum + i
+    print("Average is: ", sum/len(numbers))
+
+Average(4,5,6,2)        
+         
