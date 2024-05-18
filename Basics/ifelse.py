@@ -1,9 +1,9 @@
 a = int(input("Enter Your age: "))
 print("Your age is",a)
-if(a<15):
-    print("You are a teenager")
-elif(a<=39):
-    print("You are an adult")
+if( a <= 10 ):
+    print("You are a Kid")
+elif( a <= 18 ):
+    print("You are an Adult")
 else:
     print("You are an Senior Citizen")
     
@@ -20,4 +20,12 @@ elif(num > 0):
     else:
         print("Number is  Greater than 50")        
 else:
-    print("Number is greater than zero")        
+    print("Number is greater than zero")   
+
+
+# We Can use else with for and while loop
+for i in range(5):
+    print(i)
+else:
+    print("No i present")  
+# Note : it doesn't break the loop it ends there        
