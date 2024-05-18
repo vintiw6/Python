@@ -6,8 +6,10 @@ dict = {
     "Object" : "Fork" }
 print(dict["Name1"])
 
+
 # We can always use print(dict) to get the whole info
 print(dict)
+
 
 # Another way is to use 
 print(dict.get(4))
@@ -19,5 +21,6 @@ for key in dict.keys():
     print(dict[key])
 # This will print all elements in the dictionary 
 
-# We Use items to get the pairs
+
+# We Use items to get the pairs of elements
 print(dict.items())
